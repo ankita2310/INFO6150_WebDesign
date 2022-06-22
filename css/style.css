@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&family=Lato:ital,wght@1,300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&family=Lato:ital,wght@1,300&family=Montserrat+Alternates:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px, 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+
+    color:#13bba3;
+}
+
+.img-container {
+    position: relative;
+    
+  }
+.header__img{
+      height:9.375rem;
+      width:9.375rem;
+      margin-left: 43%;
+      margin-top: 10%;
+}
+
+.header__img-box{
+    margin:-2.5rem 0 0.625rem;
+}
+.header__img-box
+{
+    margin:-2.5rem 0 0.5rem;
+}
+@media (min-width: 576px)
+{
+.header__img-box
+    {
+        margin:-2.5rem 0 0.625rem;
+    }
+}
+
+.header__img{
+    box-shadow:0 0 1rem rgba(0,0,0,0.3);
+    height:7.5rem;
+    width:7.5rem;
+    border-radius:50%;
+}
+    
+@media (min-width: 576px)
+{.header__img
+    { height:9.375rem;
+        width:9.375rem;
+    }
+    
+}
+
+
+@media (max-width: 820px)
+{
+    .heading_content{
+       
+        position: absolute !important;
+        margin-top:-50%;
+    }
+}
+
+.overlay-img {
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+
+  .heading_content{
+    position: absolute;
+    top:60%;
+    width: 100%;
+  }
+
+  .heading_content h5{
+      font-size: 1em;
+      font-weight: 50;
+      color: aliceblue;
+      font-family: monospace;
+      word-spacing: 5px;
+       letter-spacing:2px;
+  }
+
+  .heading_content h1{
+    font-size: 3em;
+    font-weight: bolder;
+    color: aliceblue;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/*---------------about start----*/
+
+#about .btn{
+    border:2px solid transparent;
+    width:40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border:2px solid #1ebba3;
+   cursor: pointer;
+
+}
+
+#about_img{
+    height: 400px;
+    width: 450px;
+}
+
+.card-body{
+    height: 400px;
+    background-color: #FCEFEE;
+    border: 0.1em groove #283148;
+}
+
+.card-body img{
+    height: 200px;
+}
+
+.card-body p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #261C2C;
+}
+
+.card-body a{
+    background-color: #74698C !important;
+    border: 1px solid black;
+    width: 100px !important;
+    height: 35px !important;
+    margin-left: 90px !important;
+    margin-bottom: 20px !important;
+}
+
+.counter {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #FF5E00;
+}
+
+#home{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+#mb-3{
+   width: 200px !important;
+}
+
+.nav-pills li:hover{
+    cursor: pointer;
+}
+
+
+.nav-pills .nav-item:hover, .nav-pills .nav-link:focus {
+    border-color: #e9ecef #e9ecef #dee2e6 !important;
+}
+
+
+#sendMail{
+    
+    margin-left: 45%;
+}
+table td{
+    border: 1px rgb(253, 198, 198) solid !important;
+    opacity: 0.9;
+}
+
+thead{
+    text-decoration: underline;
+    font-family: cursive;
+    color: #c3abf7;
+}
